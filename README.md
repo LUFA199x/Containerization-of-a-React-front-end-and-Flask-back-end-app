@@ -18,12 +18,17 @@ RUN ``pip3 install -r requirements.txt`` to install all your dependencies
 
 CMD  ``pythom3 -m flask run --host==0.0.0.0 --port=4567`` let us breifly discuss certain parts of the command...
 
+
   -`python3`(we are running python version 3)
+  
   -`-m`(a module specifing to use the FLASK module)
+  
   -`--host=0.0.0.0`(we are binding to 0.0.0.0, because we are trying to expose our application outside the scope of the environment that we are running, rather than default which is 27.0.0.1 the localhost)
+  
   -`--port=4567`(we are telling it to start on port 4567)
   
-  **_Remember to open port 4567 from the port tab by the terminal tab, clicking the LOCK to open _**
+  
+ **Remember to open port 4567 from the port tab by the terminal tab, clicking the LOCK to open**
   
   you can append ``api/activities/home`` to the url of 404 page you get after you open port 4567 for backend, to get data;
   
@@ -77,7 +82,7 @@ Outputs are as follows with both 4567 and 3000 opened;
 ![Screenshot (692)](https://user-images.githubusercontent.com/66221234/221380855-a75e7c2d-e872-404a-a73a-b4c22be6e0b4.png)
 ![Screenshot (693)](https://user-images.githubusercontent.com/66221234/221380881-2aa94a8a-72d8-44db-8636-2a6bef59a685.png)
 
-To check present active container images, ``docker image`` command on the root directory.
+To check present active container images, run ``docker image`` command after every stage, I have here an output of the command after building the Backend-Flask.
 
 
 ![Screenshot (690)](https://user-images.githubusercontent.com/66221234/221381198-596fdda4-6013-4464-9d08-2d2f56e772a9.png)
