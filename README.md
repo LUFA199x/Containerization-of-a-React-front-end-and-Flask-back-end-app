@@ -80,4 +80,8 @@ Outputs are as follows with both 4567 and 3000 opened;
 To check present active container images, ``docker image`` command on the root directory.
 
 
+![Screenshot (690)](https://user-images.githubusercontent.com/66221234/221381198-596fdda4-6013-4464-9d08-2d2f56e772a9.png)
+
+There, we have our docker container image !
+
 
