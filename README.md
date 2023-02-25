@@ -10,7 +10,7 @@ So let's agree that you are using Gitpod or VsCode as your development environme
 
 * Step 1: Create a Dockerfile inside the Backend-Flask directory
 
-    Inside the Dockerfile, you have specified the base image and add any necessary dependencies and packages required by your Flask. But if you want to run these, move into the working DIR of Backend-Flask, and run the following commands;.
+    Inside the Dockerfile, you have specified the base image and added any necessary dependencies and packages required by your Flask. But if you want to run these, move into the working DIR of Backend-Flask, and run the following commands;.
     
 RUN ``pip3 install -r requirements.txt`` to install all your dependencies 
 
@@ -43,7 +43,7 @@ Move back to your root directory, and RUN;
  
  * Step 3: Create a Dockerfile for the React app
  
- In the root directory of your frontend-React app, create a new file “Dockerfile” Inside the Dockerfile, you have specified the base image and add any necessary dependencies and packages required by your  React app. But if you want to run these, move into the working DIR of frontend-React, and run the following commands
+ In the root directory of your frontend-React app, create a new file “Dockerfile” Inside the Dockerfile, you have specified the base image and added any necessary dependencies and packages required by your  React app. But if you want to run these, move into the working DIR of frontend-React, and run the following commands
  
  RUN ``npm install``
  
@@ -83,5 +83,7 @@ To check present active container images, ``docker image`` command on the root d
 ![Screenshot (690)](https://user-images.githubusercontent.com/66221234/221381198-596fdda4-6013-4464-9d08-2d2f56e772a9.png)
 
 There, we have our docker container image !
+
+**Please, I would appreciate you feedback**
 
 
