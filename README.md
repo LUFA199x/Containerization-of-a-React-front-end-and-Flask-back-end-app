@@ -28,4 +28,5 @@ CMD  ``pythom3 -m flask run --host==0.0.0.0 --port=4567`` let us breifly discuss
 Move back to your root directory, and RUN;
 
     ``docker build -t  backend-flask ./backend-flask``
-    
+![Docker Build Output](https://drive.google.com/file/d/1d59grxThSvE8-yy_fKMCuyeeLBJiLgvK/view?usp=sharing "result01")
+
