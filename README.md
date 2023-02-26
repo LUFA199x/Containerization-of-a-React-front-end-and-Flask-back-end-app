@@ -80,7 +80,11 @@ You can see my *_docker-compose.yml_* file for the contents of the file. The pur
 Outputs are as follows with both 4567 and 3000 opened; 
 
 ![Screenshot (692)](https://user-images.githubusercontent.com/66221234/221380855-a75e7c2d-e872-404a-a73a-b4c22be6e0b4.png)
+
 ![Screenshot (693)](https://user-images.githubusercontent.com/66221234/221380881-2aa94a8a-72d8-44db-8636-2a6bef59a685.png)
+
+![photo_2023-02-26_22-31-11](https://user-images.githubusercontent.com/66221234/221438689-0748d497-7426-474a-a61c-803459e88b50.jpg)
+
 
 To check present active container images, run ``docker image`` command after every stage, I have here an output of the command after building the Backend-Flask.
 
